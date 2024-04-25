@@ -1,0 +1,91 @@
+/* Cover Page Styles */
+.cover-page .content-holder .img-holder {
+	width: 800px;
+	height: 616px;
+}
+
+.cover-page.cover-two-image .content-holder .img-holder {
+	width: 800px;
+	height: 360px;
+}
+
+.cover-page .content-holder .img-holder img {
+	width: auto;
+	min-width: 800px;
+	height: 100%;
+	min-height: 616px;
+}
+
+.cover-page.cover-two-image .content-holder .img-holder img{
+	min-height: 360px;
+}
+
+.cover-page.cover-two-image .with-img-style-two{
+	display: flex;
+	gap: 5px;
+}
+
+.cover-page.cover-two-image .with-img-style-two .img-holder{
+	width: 400px;
+	height: 250px;
+}
+
+.cover-page.cover-two-image .with-img-style-two .img-holder img{
+	width: 100%;
+	min-width: 100%;
+	height: 100%;
+	min-height: 250px;
+}
+
+.cover-page .content-holder .details-holder {
+	display: block;
+	padding-top: 50px;
+	padding-right: 80px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	width: 800px;
+	height: 442px;
+	background-color: var(--gray);
+}
+
+.cover-page .content-holder .details-holder .cover-heading-text {
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 32px;
+}
+
+.cover-page .content-holder .details-holder .cover-heading-text::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 90px;
+	height: 1px;
+	background-color: var(--primary-color);
+}
+
+.cover-page .content-holder .details-holder .cover-heading-text h1,
+.cover-page .content-holder .details-holder .cover-heading-text .h1 {
+	max-height: 150px;
+	font-family: var(--gotham-extra);
+	font-size: 46px;
+	overflow: hidden;
+}
+
+.cover-page .content-holder .details-holder .agent-office-details > :not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.cover-page .content-holder .details-holder .agent-holder p {
+	font-size: 15px;
+	max-height: 32.5px;
+	overflow: hidden;
+}
+
+.cover-page .footer {
+	border-top: none;
+}
+
+.cover-page .footer .breadcrumbs-holder p{
+	text-align: start;
+}

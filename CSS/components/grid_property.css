@@ -1,0 +1,421 @@
+.grid-property .content-holder {
+	padding-top: 50px;
+	padding-right: 80px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+}
+
+.grid-property.landscape .content-holder {
+	padding-top: 40px;
+	padding-right: 60px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+}
+
+.grid-property .heading-text {
+	padding-bottom: initial;
+	margin-bottom: 25px;
+}
+
+.grid-property .heading-text::after {
+	display: none;
+}
+
+.grid-property .content-holder .bottom-text {
+	display: block;
+	margin-top: 10px;
+}
+
+.grid-property.without-disclaimer .content-holder .bottom-text {
+	display: none;
+}
+
+.grid-property .content-holder .bottom-text p {
+	max-height: 20px;
+	font-size: 8px;
+	overflow: hidden;
+}
+
+.grid-property .grid-property-wrapper .row {
+	-moz-box-wrap: wrap;
+	-webkit-box-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flexbox-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -7.5px;
+	margin-left: -7.5px;
+}
+
+.grid-property .grid-property-wrapper .col {
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+.grid-property .grid-property-wrapper .col:nth-child(n + 3) {
+	margin-top: 10px;
+}
+
+.grid-property.twelve-per-page .grid-property-wrapper .col:nth-child(n + 3) {
+	margin-top: initial;
+}
+
+.grid-property.twelve-per-page .grid-property-wrapper .col:nth-child(n + 4) {
+	margin-top: 10px;
+}
+
+.grid-property.landscape .grid-property-wrapper .col:nth-child(n + 3) {
+	margin-top: initial;
+}
+
+.grid-property.landscape .grid-property-wrapper .col:nth-child(n + 4) {
+	margin-top: 20px;
+}
+
+.grid-property.twelve-per-page.landscape .grid-property-wrapper .col:nth-child(n + 4) {
+	margin-top: initial;
+}
+
+.grid-property.twelve-per-page.landscape .grid-property-wrapper .col:nth-child(n + 5) {
+	margin-top: 10px;
+}
+
+.grid-property.eight-per-page.landscape .grid-property-wrapper .col:nth-child(n + 4) {
+	margin-top: initial;
+}
+
+.grid-property.eight-per-page.landscape .grid-property-wrapper .col:nth-child(n + 5) {
+	margin-top: 20px;
+}
+
+.grid-property .grid-property-wrapper .property-img-holder {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 156px;
+	background-color: var(--gray);
+	overflow: hidden;
+}
+
+.grid-property.landscape .grid-property-wrapper .property-img-holder {
+	height: 150px;
+}
+
+.grid-property.without-icons .grid-property-wrapper .property-img-holder {
+	height: 180px;
+}
+
+.grid-property.landscape.without-icons .grid-property-wrapper .property-img-holder {
+	height: 170px;
+}
+
+.grid-property.without-description .grid-property-wrapper .property-img-holder {
+	height: 220px;
+}
+
+.grid-property.landscape.without-description .grid-property-wrapper .property-img-holder {
+	height: 205px;
+}
+
+.grid-property.without-icons.without-description .grid-property-wrapper .property-img-holder {
+	height: 240px;
+}
+
+.grid-property.landscape.without-icons.without-description .grid-property-wrapper .property-img-holder {
+	height: 225px;
+}
+
+.grid-property.twelve-per-page .grid-property-wrapper .property-img-holder {
+	height: 133px;
+}
+
+.grid-property.twelve-per-page.landscape .grid-property-wrapper .property-img-holder {
+	height: 117px;
+}
+
+.grid-property.eight-per-page .grid-property-wrapper .property-img-holder {
+	height: 145px;
+}
+
+.grid-property.eight-per-page.landscape .grid-property-wrapper .property-img-holder {
+	height: 205px;
+}
+
+.grid-property.eight-per-page.without-icons .grid-property-wrapper .property-img-holder {
+	height: 145px;
+}
+
+.grid-property.eight-per-page.landscape.without-icons .grid-property-wrapper .property-img-holder {
+	height: 225px;
+}
+
+.grid-property.twelve-per-page.without-icons .grid-property-wrapper .property-img-holder {
+	height: 160px;
+}
+
+.grid-property.twelve-per-page.without-icons.landscape .grid-property-wrapper .property-img-holder {
+	height: 130px;
+}
+
+.grid-property .grid-property-wrapper .property-img-holder::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	width: 40px;
+	height: 40px;
+	background-image: url('https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/image/admins/6092/property_guide/residential_submission/icon_property_placeholder.svg');
+	background-size: contain;
+	background-position: center;
+	pointer-events: none;
+}
+
+.grid-property .grid-property-wrapper .property-img-holder img {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	height: auto;
+	min-height: 156px;
+}
+
+.grid-property.landscape .grid-property-wrapper .property-img-holder img {
+	min-height: 150px;
+}
+
+.grid-property.without-icons .grid-property-wrapper .property-img-holder img {
+	min-height: 180px;
+}
+
+.grid-property.landscape.without-icons .grid-property-wrapper .property-img-holder img {
+	width: 100%;
+	min-height: 170px;
+}
+
+.grid-property.without-description .grid-property-wrapper .property-img-holder img {
+	width: auto;
+	height: 220px;
+	min-height: 220px;
+}
+
+.grid-property.landscape.without-description .grid-property-wrapper .property-img-holder img {
+	width: 100%;
+	min-height: 205px;
+}
+
+.grid-property.without-icons.without-description .grid-property-wrapper .property-img-holder img {
+	width: auto;
+	height: 240px;
+	min-height: 240px;
+}
+
+.grid-property.landscape.without-icons.without-description .grid-property-wrapper .property-img-holder img {
+	width: 100%;
+	min-height: 225px;
+}
+
+.grid-property.twelve-per-page .grid-property-wrapper .property-img-holder img {
+	width: 100%;
+	height: auto;
+	min-height: 133px;
+}
+
+.grid-property.twelve-per-page.landscape .grid-property-wrapper .property-img-holder img {
+	width: 100%;
+	height: auto;
+	min-height: 117px;
+}
+
+.grid-property.twelve-per-page.without-icons .grid-property-wrapper .property-img-holder img {
+	width: auto;
+	height: 160px;
+	min-height: 160px;
+}
+
+.grid-property.twelve-per-page.landscape.without-icons .grid-property-wrapper .property-img-holder img {
+	width: 100%;
+	height: auto;
+	min-height: 130px;
+}
+
+.grid-property.eight-per-page .grid-property-wrapper .property-img-holder img {
+	width: 100%;
+	height: auto;
+	min-height: 145px;
+}
+
+.grid-property.eight-per-page.landscape .grid-property-wrapper .property-img-holder img {
+	height: 205px;
+	min-height: 205px;
+}
+
+.grid-property.eight-per-page.without-icons .grid-property-wrapper .property-img-holder img {
+	height: 145px;
+	min-height: 145px;
+}
+
+.grid-property.eight-per-page.landscape.without-icons .grid-property-wrapper .property-img-holder img {
+	width: auto;
+	height: 225px;
+	min-height: 225px;
+}
+
+.grid-property .grid-property-wrapper .property-status-holder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding-top: 8.5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 8.5px;
+	height: 34px;
+	background-color: var(--red);
+}
+
+.grid-property .grid-property-wrapper .property-status-holder::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -30px;
+	height: 34px;
+	border-left: 30px solid var(--red);
+	border-bottom: 34px solid transparent;
+}
+
+.grid-property .grid-property-wrapper .property-status-holder p {
+	max-height: 17.5px;
+	font-family: var(--gotham);
+	font-weight: 900;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: var(--white);
+	overflow: hidden;
+}
+
+.grid-property .grid-property-wrapper .property-img-desc-holder {
+	position: absolute;
+	bottom: 6px;
+	left: 6px;
+	width: 293.5px;
+}
+
+.grid-property .grid-property-wrapper .property-img-desc-holder {
+	font-size: 9px;
+	color: var(--white);
+}
+
+.grid-property .grid-property-wrapper .property-details-holder {
+	margin-bottom: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid var(--black);
+}
+
+.grid-property.without-icons .grid-property-wrapper .property-details-holder {
+	margin-bottom: 0;
+}
+
+.grid-property .grid-property-wrapper .property-address {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	max-height: 25px;
+	list-style: none;
+	overflow: hidden;
+}
+
+.grid-property.without-description .grid-property-wrapper .property-address,
+.grid-property.landscape .grid-property-wrapper .property-address {
+	-webkit-line-clamp: 1;
+	max-height: 12.5px;
+}
+
+.grid-property.without-icons.without-description .grid-property-wrapper .property-address,
+.grid-property.landscape.without-icons .grid-property-wrapper .property-address,
+.grid-property.landscape.without-description .grid-property-wrapper .property-address {
+	-webkit-line-clamp: 2;
+	max-height: 25px;
+}
+
+.grid-property.twelve-per-page .grid-property-wrapper .property-address {
+	-webkit-line-clamp: 2;
+	max-height: 25px;
+}
+
+.grid-property.twelve-per-page.landscape .grid-property-wrapper .property-address {
+	-webkit-line-clamp: 1;
+	max-height: 12.5px;
+}
+
+.grid-property.twelve-per-page.landscape.without-icons .grid-property-wrapper .property-address {
+	-webkit-line-clamp: 2;
+	max-height: 25px;
+}
+
+.grid-property .grid-property-wrapper .property-price {
+	max-height: 12.5px;
+	overflow: hidden;
+}
+
+.grid-property .grid-property-wrapper .property-icons-holder {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+}
+
+.grid-property.without-icons .grid-property-wrapper .property-icons-holder {
+	display: none;
+}
+
+.grid-property .grid-property-wrapper .property-icons-holder .icon-holder {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.grid-property .grid-property-wrapper .property-icons-holder .icon-holder:not(:last-child) {
+	margin-right: 10px;
+}
+
+.grid-property .grid-property-wrapper .property-icons-holder .icon-holder img {
+	display: block;
+	margin-left: 5px;
+	width: 22px;
+	height: 22px;
+}
+
+.grid-property .grid-property-wrapper .property-icons-holder .icon-holder span {
+	font-family: var(--gotham);
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 22px;
+}
+
+.grid-property .grid-property-wrapper .property-description-holder {
+	display: block;
+	margin-top: 10px;
+}
+
+.grid-property.without-description .grid-property-wrapper .property-description-holder {
+	display: none;
+}
+
+.grid-property .grid-property-wrapper .property-description-holder p {
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	height: 50px;
+	list-style: none;
+	overflow: hidden;
+}

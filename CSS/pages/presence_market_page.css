@@ -1,0 +1,110 @@
+.presence-market-page .content-holder {
+	position: relative;
+	padding-top: 50px;
+	padding-right: 80px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+}
+
+.presence-market-page .graph-holder {
+	-moz-box-wrap: wrap;
+	-webkit-box-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flexbox-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.presence-market-page .graph-holder .graph-text {
+	border-bottom: 1px solid var(--primary-color);
+	margin-bottom: 20px;
+	padding-bottom: 8px;
+}
+
+.presence-market-page .graph-holder .graph-img-holder {
+	display: block;
+	width: 100%;
+}
+
+.presence-market-page .graph-holder .graph-img-holder img {
+	/* display: block; */
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+	max-width: 100%;
+	height: 160px;
+}
+
+.presence-market-page .sub-text-holder {
+	position: absolute;
+	bottom: 50px;
+	left: 80px;
+}
+
+.presence-market-page.ladscape .sub-text-holder {
+	bottom: 40px;
+	left: 60px;
+}
+
+
+.presence-market-page .list-header-holder,
+.presence-market-page .list-property-item{
+	display: block;
+	padding-right: 6px;
+	padding-left: 6px;
+	background-color: var(--gray);
+}
+
+.presence-market-page .list-property-item,
+.presence-market-page .list-property-wrapper{
+	background-color: var(--white);
+}
+
+.presence-market-page .list-header-holder .row,
+.presence-market-page .list-property-item .row{
+	margin-right: -6px;
+	margin-left: -6px;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.presence-market-page .list-header-holder .col,
+.presence-market-page .list-property-item .col  {
+	padding: 8px 6px;
+}
+
+.presence-market-page .list-property-item {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.presence-market-page .list-header-holder .col:first-child,
+.presence-market-page .list-property-item .col:first-child{
+	width: 95%;
+}
+
+.presence-market-page .list-header-holder .col:not(:first-child),
+.presence-market-page .list-property-item .col:not(:first-child){
+	width: 40%;
+}
+
+.presence-market-page .social-count {
+    font-size: 30px;
+	font-family: var(--gotham-extra);
+}
+
+.presence-market-page .website-placement .graph-text{
+	padding: 5px 8px;
+	margin-bottom: 0;
+}
+
+.presence-market-page .gray-box-holder{
+	padding: 20px;
+}
+
+.presence-market-page .website-placement p:not(:first-child){
+	border-bottom: 1px solid var(--primary-color);
+	padding: 5px 8px;
+}

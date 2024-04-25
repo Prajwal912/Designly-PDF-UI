@@ -1,0 +1,95 @@
+.list-property .content-holder {
+	padding-top: 50px;
+	padding-right: 80px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+}
+
+.list-property.landscape .content-holder {
+	padding-top: 40px;
+	padding-right: 60px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+}
+
+.list-property.landscape .content-holder {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-moz-box-direction: column;
+	-webkit-box-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-ms-flexbox-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.list-property .heading-text {
+	padding-bottom: initial;
+	margin-bottom: 25px;
+}
+
+.list-property.landscape .heading-text {
+	order: 1;
+}
+
+.list-property .heading-text::after {
+	display: none;
+}
+
+.list-property.landscape .list-property-wrapper {
+	order: 3;
+}
+
+.list-property.landscape .list-header-holder {
+	order: 2;
+}
+
+.content-holder .bottom-text {
+	display: block;
+	margin-top: 10px;
+}
+
+.landscape .content-holder .bottom-text {
+	order: 4;
+}
+
+.content-holder .bottom-text p {
+	max-height: 20px;
+	font-size: 8px;
+	overflow: hidden;
+}
+
+.list-property .list-header {
+	padding-top: 12px;
+	padding-right: 15px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	background-color: var(--gray);
+}
+
+.list-property.landscape .list-property-wrapper.two-column + .list-header-holder {
+	column-count: 2;
+}
+
+.list-property .list-header:last-child {
+	display: none;
+}
+
+.list-property.landscape .two-column + .list-header-holder .list-header:last-child {
+	display: block;
+}
+
+.list-property.landscape .list-property-wrapper.two-column {
+	column-count: 2;
+}
+
+.list-property .list-property-item {
+	padding-top: 12px;
+	padding-right: 15px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	border-bottom: 1px solid var(--primary-color);
+}

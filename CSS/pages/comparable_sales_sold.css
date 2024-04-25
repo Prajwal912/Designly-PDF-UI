@@ -1,0 +1,160 @@
+.comparable-sales .content-holder,
+.comparable-sales.sold-label .content-holder {
+	position: relative;
+	padding-top: 50px;
+	padding-right: 80px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+}
+
+.comparable-sales .list-header-holder,
+.comparable-sales .list-property-item,
+.comparable-sales.sold-label .list-header-holder,
+.comparable-sales.sold-label .list-property-item {
+	display: block;
+	padding-right: 6px;
+	padding-left: 6px;
+	background-color: var(--gray);
+}
+
+.comparable-sales .list-property-item,
+.comparable-sales .list-property-wrapper,
+.comparable-sales.sold-label .list-property-item,
+.comparable-sales.sold-label .list-property-wrapper {
+	background-color: var(--white);
+}
+
+.comparable-sales .list-header-holder .row,
+.comparable-sales .list-property-item .row,
+.comparable-sales.sold-label .list-header-holder .row,
+.comparable-sales.sold-label .list-property-item .row {
+	margin-right: -6px;
+	margin-left: -6px;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.comparable-sales .list-header-holder .row,
+.comparable-sales .list-property-item .row {
+	-webkit-box-align: start;
+	-webkit-align-items: start;
+	-moz-box-align: start;
+	-ms-flex-align: start;
+	align-items: start;
+}
+
+
+.comparable-sales .list-header-holder .col,
+.comparable-sales .list-property-item .col,
+.comparable-sales.sold-label .list-header-holder .col,
+.comparable-sales.sold-label .list-property-item .col  {
+	padding-top: 10px;
+	padding-right: 6px;
+	padding-bottom: 10px;
+	padding-left: 6px;
+}
+
+.comparable-sales.sold-label .list-header-holder .col,
+.comparable-sales.sold-label .list-property-item .col{
+	width: 15%;
+}
+
+.comparable-sales .list-header-holder .col,
+.comparable-sales .list-property-item .col{
+	width: 18%;
+}
+
+.comparable-sales.with-property .list-header-holder .col,
+.comparable-sales.with-property .list-property-item .col{
+	width: 16%;
+}
+
+.comparable-sales.sold-label .list-header-holder .col:nth-child(4),
+.comparable-sales.sold-label .list-property-item .col:nth-child(4),
+.comparable-sales.with-property .list-header-holder .col:nth-child(5),
+.comparable-sales.with-property .list-property-item .col:nth-child(5){
+	width: 34%;
+}
+
+.comparable-sales.sold-label .list-header-holder .col:last-child,
+.comparable-sales.sold-label .list-property-item .col:last-child{
+	width: 10%;
+	text-align: center;
+}
+
+.comparable-sales .list-header-holder .col:last-child,
+.comparable-sales .list-property-item .col:last-child{
+	width: 40%;
+}
+
+.comparable-sales.with-property .list-header-holder .col:last-child,
+.comparable-sales.with-property .list-property-item .col:last-child{
+	width: 20%;
+}
+
+.comparable-sales.with-table .list-header-holder .col:first-child,
+.comparable-sales.with-table .list-property-item .col:first-child{
+	width: 100%;
+}
+
+.comparable-sales.with-table .list-header-holder .col:last-child,
+.comparable-sales.with-table .list-property-item .col:last-child{
+	width: 30%;
+    text-align: center;
+}
+
+.comparable-sales.with-table .market-activity .list-header-holder .col:not(:first-child),
+.comparable-sales.with-table .market-activity .list-property-item .col:not(:first-child){
+	width: 45%;
+	text-align: center;
+}
+
+.comparable-sales.with-property .list-property-item .col:last-child{
+	padding: 0;
+}
+
+.comparable-sales.sold-label .list-property-item .icon-holder {
+    display: block;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+}
+
+.comparable-sales.sold-label .list-property-item .icon-holder .img{
+	display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comparable-sales.with-property .list-property-item .img-holder {
+    display: block;
+	width: 107px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.comparable-sales.with-property .list-property-item .img-holder img{
+	display: block;
+    width: 100%;
+	height: 100%;
+}
+
+.comparable-sales .list-property-item,
+.comparable-sales.sold-label .list-property-item{
+	border-bottom: 1px solid var(--primary-color);
+}
+
+.comparable-sales.with-img-cover .img-holder{
+    height: 280px;
+}
+
+.comparable-sales.with-img-cover .img-holder img {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+}

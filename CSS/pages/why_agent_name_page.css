@@ -1,0 +1,173 @@
+/* Why Agent Name Styles */
+.why-agent-name-page .content-holder {
+	padding-top: 50px;
+	padding-right: 80px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+}
+
+.why-agent-name-page .total-enquiries .large-text{
+	font-size: 30px;
+	font-weight: 600;
+	font-family: var(--gotham-extra);
+}
+
+.why-agent-name-page .list-header-holder {
+    display: block;
+    padding: 10px 6px;
+    background-color: var(--gray);
+}
+
+.why-agent-name-page .list-property-item{
+	padding: 10px 6px;
+	border-bottom: 1px solid var(--primary-color);
+}
+
+.why-agent-name-page .gray-grid-box-holder {
+	margin-top: 32px;
+}
+
+.why-agent-name-page .agent-holder {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 35px;
+}
+
+.why-agent-name-page.two-agents .agents-holder .agent-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	-moz-box-pack: justify;
+	justify-content: space-between;
+}
+
+.why-agent-name-page.two-agents .agents-holder .agent-wrapper .agent-block{
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.why-agent-name-page.two-agents .agents-holder .agent-wrapper:not(:last-child) {
+	margin-bottom: 50px;
+}
+
+.why-agent-name-page .agent-holder .agent-img-holder,
+.why-agent-name-page.two-agents .agents-holder .agent-img-holder {
+	position: relative;
+	display: block;
+	margin-right: 25px;
+	width: 205px;
+	height: 205px;
+	border: 1px solid var(--primary-color);
+	overflow: hidden;
+}
+
+.why-agent-name-page.two-agents .agents-holder .agent-img-holder::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	background-image: url('https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/image/admins/6092/property_guide/residential_submission/icon_avatar_placeholder.svg');
+	background-size: contain;
+	background-position: center;
+	pointer-events: none;
+}
+
+.why-agent-name-page.two-agents .agents-holder .agent-img-holder {
+	margin-right: initial;
+	width: 100px;
+    height: 100px;
+}
+
+.why-agent-name-page .agent-holder .agent-img-holder img,
+.why-agent-name-page.two-agents .agents-holder .agent-img-holder img {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	background-color: var(--white);
+}
+
+.why-agent-name-page .agent-holder .agent-img-holder img[src='https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/image/admins/6092/property_guide/residential_submission/image_placeholder.svg'],
+.why-agent-name-page.two-agents .agents-holder .agent-img-holder img[src='https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/image/admins/6092/property_guide/residential_submission/image_placeholder.svg']
+{
+	height: 100%;
+	background-color: transparent;
+}
+
+.why-agent-name-page .agent-holder .agent-details-holder .office-details,
+.why-agent-name-page.two-agents .agents-holder .agent-details-holder .office-details {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 8px;
+	font-size: 8px;
+	line-height: 1.25;
+}
+
+.why-agent-name-page .agent-holder .agent-details-holder .award-text,
+.why-agent-name-page.two-agents .agents-holder .agent-details-holder .award-text {
+	display: block;
+	width: 188px;
+}
+
+.why-agent-name-page .agent-holder .agent-details-holder .award-text img,
+.why-agent-name-page.two-agents .agents-holder .agent-details-holder .award-text img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+.why-agent-name-page .agent-holder .agent-details-holder .award-text P,
+.why-agent-name-page.two-agents .agents-holder .agent-details-holder .award-text P {
+	font-family: var(--gotham);
+	font-weight: 900;
+	line-height: 1.25;
+}
+
+.why-agent-name-page .agent-holder .agent-details-holder .award-text P:first-child,
+.why-agent-name-page.two-agents .agents-holder .agent-details-holder .award-text P:first-child {
+	margin-right: 10px;
+	font-size: 21px;
+}
+
+.why-agent-name-page .agent-holder .agent-details-holder .award-text P:last-child,
+.why-agent-name-page.two-agents .agents-holder .agent-details-holder .award-text P:last-child {
+	font-size: 8px;
+	color: var(--light-blue);
+}
+
+.why-agent-name-page .agent-holder .agent-details-holder .award-text P:last-child .year,
+.why-agent-name-page.two-agents .agents-holder .agent-details-holder .award-text P:last-child .year {
+	font-family: var(--gatham-book);
+}
+
+.why-agent-name-page .agent-holder .agent-details-holder .auction-club,
+.why-agent-name-page.two-agents .agents-holder .agent-details-holder .auction-club {
+	display: block;
+	margin-top: 5px;
+	width: 172px;
+	height: auto;
+}
+
+.why-agent-name-page .agent-holder .agent-details-holder .auction-club img,
+.why-agent-name-page.two-agents .agents-holder .agent-details-holder .auction-club img {
+	display: block;
+	width: 100%;
+	height: auto;
+}

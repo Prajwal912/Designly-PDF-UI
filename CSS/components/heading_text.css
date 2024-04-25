@@ -1,0 +1,38 @@
+/* Heading Text Styles */
+.heading-text {
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 32px;
+}
+
+.heading-text h2 {
+	font-family: var(--gotham);
+	font-weight: 300;
+	font-size: 34px;
+}
+
+.heading-text small {
+	font-family: var(--gotham-book);
+	font-size: 23px;
+}
+
+.heading-text::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 90px;
+	height: 1px;
+	background-color: var(--primary-color);
+}
+
+.heading-text-alt {
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid var(--primary-color);
+}
+
+.heading-text-alt p {
+	font-family: var(--gotham);
+	font-weight: bold;
+}

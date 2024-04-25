@@ -1,0 +1,81 @@
+/* Footer Styles */
+
+.footer.knight-frank-logo {
+	display: none;
+}
+
+.knight-frank-version .footer.knight-frank-logo {
+	display: flex;
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	-moz-box-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 16px;
+	padding-right: 45px;
+	padding-bottom: 16px;
+	padding-left: 45px;
+	width: 100%;
+	height: 72px;
+	background-color: var(--white);
+	border-top: 1px solid var(--primary-color);
+	border-bottom: 5px solid var(--primary-color);
+}
+
+.footer .brand-logo-holder {
+	display: block;
+	width: 50%;
+	height: 34px;
+}
+
+.footer .brand-logo-holder img {
+	display: block;
+	max-width: 100%;
+	height: 100%;
+}
+
+.footer .breadcrumbs-holder {
+	display: block;
+	width: 50%;
+}
+
+.footer .breadcrumbs-holder p {
+	text-align: right;
+	text-transform: capitalize;
+}
+
+.footer .breadcrumbs-holder span.page-number {
+	display: block;
+	font-size: 11px;
+	text-align: right;
+	text-transform: capitalize;
+}
+
+/* Page Counter */
+
+body {
+	counter-reset: css-counter 0;
+}
+
+div.screen {
+	counter-increment: css-counter 1;
+}
+
+div.screen .footer .breadcrumbs-holder span.page-number::before {
+	content: counter(css-counter);
+}
